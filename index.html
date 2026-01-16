@@ -486,8 +486,8 @@
             color: white;
         }
 
-        .btn-discord {
-            background: linear-gradient(135deg, #5865F2, #4752C4);
+        .btn-saweria {
+            background: linear-gradient(135deg, #FF6B6B, #FF8E53);
             color: white;
         }
 
@@ -883,7 +883,7 @@
         <div class="social-media-section">
             <div class="social-title">CLASS SOCIAL MEDIA</div>
             <div class="social-grid" id="social-grid">
-                <!-- Generated from JSON -->
+                <!-- Generated from 7a.json -->
             </div>
         </div>
 
@@ -916,7 +916,7 @@
                     👤 PERSONAL INFORMATION
                 </p>
                 <div class="info-grid" id="developer-info">
-                    <!-- Generated from JSON -->
+                    <!-- Generated from 7a.json -->
                 </div>
             </div>
 
@@ -925,7 +925,7 @@
                     🔗 SOCIAL LINKS
                 </p>
                 <div class="social-grid" id="developer-social">
-                    <!-- Generated from JSON -->
+                    <!-- Generated from 7a.json -->
                 </div>
             </div>
         </div>
@@ -1097,7 +1097,7 @@
                 setTimeout(() => {
                     loading.style.display = 'none';
                 }, 500);
-            }, 1500); // Loading sedikit lebih lama untuk UX yang baik
+            }, 1500);
         }
 
         // Render social media
@@ -1110,18 +1110,12 @@
                 let btnClass = 'social-btn';
                 
                 const platform = social.platform.toLowerCase();
-                if (platform.includes('instagram') || platform.includes('ig')) {
+                if (platform.includes('instagram')) {
                     icon = '📸';
                     btnClass += ' btn-ig';
                 } else if (platform.includes('tiktok')) {
                     icon = '🎵';
                     btnClass += ' btn-tiktok';
-                } else if (platform.includes('youtube') || platform.includes('yt')) {
-                    icon = '▶️';
-                    btnClass += ' btn-yt';
-                } else if (platform.includes('discord')) {
-                    icon = '💬';
-                    btnClass += ' btn-discord';
                 }
                 
                 return `
@@ -1176,15 +1170,18 @@
                     let btnClass = 'social-btn';
                     
                     const platform = link.platform.toLowerCase();
-                    if (platform.includes('instagram') || platform.includes('ig')) {
+                    if (platform.includes('instagram')) {
                         icon = '📸';
                         btnClass += ' btn-ig';
                     } else if (platform.includes('tiktok')) {
                         icon = '🎵';
                         btnClass += ' btn-tiktok';
-                    } else if (platform.includes('youtube') || platform.includes('yt')) {
+                    } else if (platform.includes('youtube')) {
                         icon = '▶️';
                         btnClass += ' btn-yt';
+                    } else if (platform.includes('saweria')) {
+                        icon = '💰';
+                        btnClass += ' btn-saweria';
                     }
                     
                     return `
@@ -1273,7 +1270,7 @@
                      style="animation-delay: ${index * 0.1}s">
                     <div class="gallery-media">
                         ${item.tipe === 'video' 
-                            ? `<video src="${item.url}#t=0.1" muted playsinline></video>` 
+                            ? `<video src="${item.url}" muted playsinline></video>` 
                             : `<img src="${item.url}" loading="lazy" alt="${item.nama}">`
                         }
                     </div>
@@ -1355,7 +1352,7 @@
                 updateTime();
                 setInterval(updateTime, 1000);
                 
-                // Load data
+                // Load data from 7a.json
                 const response = await fetch('7a.json');
                 if (!response.ok) throw new Error('Failed to load data');
                 
