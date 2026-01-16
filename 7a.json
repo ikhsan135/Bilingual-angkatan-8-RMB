@@ -1,0 +1,60 @@
+{
+  "siswa": [
+    {
+      "absen": 10,
+      "nama": "Ikhsan Maulana",
+      "panggilan": "Ikhsan",
+      "jabatan": "Bendahara & Website Developer",
+      "lahir": "2012-10-17",
+      "hobi": "Coding, Gaming, Reading",
+      "citacita": "Software Engineer",
+      "status": "Active"
+    }
+  ],
+  
+  "galeri": [
+    {
+      "nama": "JJ Tahun Baru Ikhsan",
+      "tipe": "video",
+      "url": "data/video1.mp4"
+    }
+  ],
+  
+  "social_media": [
+    {
+      "platform": "Instagram Kelas 7A",
+      "url": "https://instagram.com/kelas7a_rmb"
+    },
+    {
+      "platform": "TikTok Kelas 7A",
+      "url": "https://tiktok.com/@kelas7a_rmb"
+    }
+  ],
+  
+  "developer": {
+    "nama": "Ikhsan Maulana",
+    "absen": 10,
+    "jabatan": "Bendahara & Website Developer",
+    "lahir": "2012-10-17",
+    "hobi": "Coding, Gaming, Reading",
+    "citacita": "Software Engineer",
+    "social_links": [
+      {
+        "platform": "YouTube Ikhsan",
+        "url": "https://youtube.com/@ikhsan-project"
+      },
+      {
+        "platform": "TikTok Ikhsan",
+        "url": "https://tiktok.com/@Ikhsan.projectt"
+      },
+      {
+        "platform": "Instagram Ikhsan",
+        "url": "https://www.instagram.com/play.ikhsan.id"
+      },
+      {
+        "platform": "Saweria Ikhsan",
+        "url": "https://saweria.co/ikhsanoffocial"
+      }
+    ]
+  }
+}
