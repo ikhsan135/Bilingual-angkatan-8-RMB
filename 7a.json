@@ -1,17 +1,38 @@
 {
   "siswa": [
+    { "absen": 1, "nama": "Abizhar Al Ghifari Arieshandy", "panggilan": "Abizhar", "status": "Active" },
+    { "absen": 2, "nama": "Abyasa Mikdam Haetami", "panggilan": "Abyasa", "status": "Active" },
+    { "absen": 3, "nama": "Ahmad Ashiil Arkaan", "panggilan": "Arkan", "jabatan": "Bendahara", "status": "Active" },
+    { "absen": 4, "nama": "Anwar Ramadhan", "panggilan": "Anwar", "status": "Active" },
+    { "absen": 5, "nama": "Calief Aqilla Jembar Pranaja", "panggilan": "Calief", "status": "Active" },
+    { "absen": 6, "nama": "Dipa Gardapati", "panggilan": "Dipa", "status": "Active" },
+    { "absen": 7, "nama": "Fakhri Razan Siregar", "panggilan": "Fakhri", "status": "Active" },
+    { "absen": 8, "nama": "Fathan Al-Maisar", "panggilan": "Fathan", "status": "Active" },
+    { "absen": 9, "nama": "Haidar Khoirulloh", "panggilan": "Haidar", "status": "Active" },
+    { "absen": 10, "nama": "Hamdani Syaikhu Mudzakkir", "panggilan": "Hamdani", "status": "Active" },
     {
-      "absen": 10,
+      "absen": 11,
       "nama": "Ikhsan Maulana",
       "panggilan": "Ikhsan",
       "jabatan": "Bendahara & Website Developer",
-      "lahir": "2012-10-17",
-      "hobi": "Coding, Gaming, Reading",
-      "citacita": "Software Engineer",
       "status": "Active"
-    }
+    },
+    { "absen": 12, "nama": "Kenzie Lionald Fauzie", "panggilan": "Kenzie", "jabatan": "Wakil Ketua Kelas", "status": "Active" },
+    { "absen": 13, "nama": "Muhammad Al Fatih", "panggilan": "Fatih", "jabatan": "Ketua Kelas", "status": "Active" },
+    { "absen": 14, "nama": "Muhammad Andika Wafly", "panggilan": "Andika", "jabatan": "Sekretaris", "status": "Active" },
+    { "absen": 15, "nama": "Muhammad Arditya Anggara", "panggilan": "Ardit", "status": "Active" },
+    { "absen": 16, "nama": "Muhammad Fadhilah Azzaidan", "panggilan": "Fadhil", "jabatan": "Sekretaris", "status": "Active" },
+    { "absen": 17, "nama": "Muhammad Faith Nabil Attoyyibi", "panggilan": "Nabil", "status": "Active" },
+    { "absen": 18, "nama": "Muhammad Faqih Athallah", "panggilan": "Faqih", "status": "Active" },
+    { "absen": 19, "nama": "Muhammad Ghiffari Al Idrus", "panggilan": "Ghiffari", "status": "Active" },
+    { "absen": 20, "nama": "Muhammad Laga Setiawan", "panggilan": "Laga", "status": "Active" },
+    { "absen": 21, "nama": "Muhammad Zibran", "panggilan": "Zibran", "status": "Active" },
+    { "absen": 22, "nama": "Ozie Mahardika Schneider", "panggilan": "Ozie", "status": "Active" },
+    { "absen": 23, "nama": "Rachmatul Hilmi Kuswantoro", "panggilan": "Hilmi", "status": "Active" },
+    { "absen": 24, "nama": "Raffa Hartanto", "panggilan": "Raffa", "status": "Active" },
+    { "absen": 25, "nama": "Raqilla Mirza Alfarizi", "panggilan": "Mirza", "status": "Active" },
+    { "absen": 26, "nama": "Zulkarnaen Elnar Djafar Yahya", "panggilan": "Elnar", "status": "Active" }
   ],
-  
   "galeri": [
     {
       "nama": "JJ Tahun Baru Ikhsan",
@@ -19,7 +40,6 @@
       "url": "video1.mp4"
     }
   ],
-  
   "social_media": [
     {
       "platform": "Instagram Kelas 7A",
@@ -30,35 +50,16 @@
       "url": "https://www.tiktok.com/@vii.archives?_r=1&_t=ZS-938c3qwF1En"
     }
   ],
-  
   "developer": {
     "nama": "Ikhsan Maulana",
-    "absen": 10,
+    "absen": 11,
     "jabatan": "Bendahara & Website Developer",
-    "lahir": "2012-10-17",
-    "hobi": "Coding, Gaming, Reading",
-    "citacita": "Software Engineer",
     "social_links": [
-      {
-        "platform": "YouTube Ikhsan",
-        "url": "https://youtube.com/@ikhsan-project"
-      },
-      {
-        "platform": "TikTok Ikhsan",
-        "url": "https://tiktok.com/@Ikhsan.projectt"
-      },
-      {
-        "platform": "Instagram Ikhsan",
-        "url": "https://www.instagram.com/play.ikhsan.id"
-      },
-      {
-        "platform": "Saweria Ikhsan",
-        "url": "https://saweria.co/ikhsanoffocial"
-      },
-      {
-        "platform": "Sency - Website Lirik",
-        "url": "https://www.ikhsansmp.fun"
-      }
+      { "platform": "YouTube Ikhsan", "url": "https://youtube.com/@ikhsan-project" },
+      { "platform": "TikTok Ikhsan", "url": "https://tiktok.com/@Ikhsan.projectt" },
+      { "platform": "Instagram Ikhsan", "url": "https://www.instagram.com/play.ikhsan.id" },
+      { "platform": "Saweria Ikhsan", "url": "https://saweria.co/ikhsanoffocial" },
+      { "platform": "Sency - Website Lirik", "url": "https://www.ikhsansmp.fun" }
     ]
   }
 }
