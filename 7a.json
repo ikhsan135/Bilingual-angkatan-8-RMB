@@ -6,7 +6,7 @@
     { "absen": 4, "nama": "Anwar Ramadhan", "panggilan": "Anwar", "status": "Active" },
     { "absen": 5, "nama": "Calief Aqilla Jembar Pranaja", "panggilan": "Calief", "status": "Active" },
     { "absen": 6, "nama": "Dipa Gardapati", "panggilan": "Dipa", "status": "Active" },
-    { "absen": 7, "nama": "Fakhri Razan Siregar", "panggilan": "Fakhri", "status": "Active" },
+    { "absen": 7, "nama": "Fakhri Razan Siregar", "panggilan": "Fakhri", "status": "Moved Out" },
     { "absen": 8, "nama": "Fathan Al-Maisar", "panggilan": "Fathan", "status": "Active" },
     { "absen": 9, "nama": "Haidar Khoirulloh", "panggilan": "Haidar", "status": "Active" },
     { "absen": 10, "nama": "Hamdani Syaikhu Mudzakkir", "panggilan": "Hamdani", "status": "Active" },
@@ -15,6 +15,9 @@
       "nama": "Ikhsan Maulana",
       "panggilan": "Ikhsan",
       "jabatan": "Bendahara & Website Developer",
+      "lahir": "2012-10-17",
+      "hobi": "Coding, Gaming, Reading",
+      "citacita": "Software Engineer",
       "status": "Active"
     },
     { "absen": 12, "nama": "Kenzie Lionald Fauzie", "panggilan": "Kenzie", "jabatan": "Wakil Ketua Kelas", "status": "Active" },
@@ -54,6 +57,9 @@
     "nama": "Ikhsan Maulana",
     "absen": 11,
     "jabatan": "Bendahara & Website Developer",
+    "lahir": "2012-10-17",
+    "hobi": "Coding, Gaming, Reading",
+    "citacita": "Software Engineer",
     "social_links": [
       { "platform": "YouTube Ikhsan", "url": "https://youtube.com/@ikhsan-project" },
       { "platform": "TikTok Ikhsan", "url": "https://tiktok.com/@Ikhsan.projectt" },
